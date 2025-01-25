@@ -1,0 +1,60 @@
+[2025-01-18T13:34:03.169Z] Error scraping page 1:: TimeoutError: Waiting for selector `.jobTuple` failed: Waiting failed: 30000ms exceeded
+TimeoutError: Waiting for selector `.jobTuple` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeNaukriJobs (D:\auto-job-scrapper\index.js:76:9)
+    at async main (D:\auto-job-scrapper\index.js:163:18)
+
+[2025-01-18T13:34:34.347Z] Error scraping page 2:: TimeoutError: Waiting for selector `.jobTuple` failed: Waiting failed: 30000ms exceeded
+TimeoutError: Waiting for selector `.jobTuple` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeNaukriJobs (D:\auto-job-scrapper\index.js:76:9)
+    at async main (D:\auto-job-scrapper\index.js:163:18)
+
+[2025-01-18T13:36:57.590Z] Error scraping page 1:: TimeoutError: Waiting for selector `.jobTuple.bgWhite.z-depth-1` failed: Waiting failed: 30000ms exceeded
+TimeoutError: Waiting for selector `.jobTuple.bgWhite.z-depth-1` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeNaukriJobs (D:\auto-job-scrapper\index.js:71:9)
+    at async main (D:\auto-job-scrapper\index.js:170:18)
+
+[2025-01-18T13:37:29.286Z] Error scraping page 2:: TimeoutError: Waiting for selector `.jobTuple.bgWhite.z-depth-1` failed: Waiting failed: 30000ms exceeded
+TimeoutError: Waiting for selector `.jobTuple.bgWhite.z-depth-1` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeNaukriJobs (D:\auto-job-scrapper\index.js:71:9)
+    at async main (D:\auto-job-scrapper\index.js:170:18)
+
+[2025-01-18T13:38:40.733Z] Error scraping page 1:: TimeoutError: Waiting for selector `srp-jobtuple-wrapper` failed: Waiting failed: 30000ms exceeded
+TimeoutError: Waiting for selector `srp-jobtuple-wrapper` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeNaukriJobs (D:\auto-job-scrapper\index.js:71:9)
+    at async main (D:\auto-job-scrapper\index.js:168:18)
+
+[2025-01-18T13:39:11.917Z] Error scraping page 2:: TimeoutError: Waiting for selector `srp-jobtuple-wrapper` failed: Waiting failed: 30000ms exceeded
+TimeoutError: Waiting for selector `srp-jobtuple-wrapper` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\auto-job-scrapper\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeNaukriJobs (D:\auto-job-scrapper\index.js:71:9)
+    at async main (D:\auto-job-scrapper\index.js:168:18)
+
