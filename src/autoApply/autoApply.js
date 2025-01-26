@@ -19,7 +19,7 @@ async function autoApplyToJobs(
   emailConfig = {},
   existingBrowser = null
 ) {
-  const MAX_APPLY_LIMIT = 50;
+  const MAX_APPLY_LIMIT = 40;
   const successfullyApplied = await getApplicationCount();
   const MAX_JOBS_TO_APPLY = MAX_APPLY_LIMIT - successfullyApplied;
 
@@ -211,7 +211,7 @@ async function autoApplyToJobs(
           }
 
           // Wait for click response
-          await new Promise((resolve) => setTimeout(resolve, 1000));
+          await new Promise((resolve) => setTimeout(resolve, 2000));
 
           // Verify application success
           const applicationStatus = await page.evaluate(() => {
@@ -249,6 +249,7 @@ async function autoApplyToJobs(
           });
           continue;
         }
+        await new Promise((resolve) => setTimeout(resolve, 2000));
 
         const successMessage = await page.evaluate(() => {
           return document.body.innerText.includes(

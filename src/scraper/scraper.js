@@ -236,7 +236,7 @@ async function scrapeNaukriJobs(searchQuery, options = {}) {
     const totalAvailablePages = await getTotalPages(page);
     logger.info(`Total available pages: ${totalAvailablePages}`);
 
-    const pagesToScrape = Math.min(maxPages, totalAvailablePages);
+    const pagesToScrape = Math.max(maxPages, totalAvailablePages);
     logger.info(`Will scrape ${pagesToScrape} pages`);
 
     const allJobs = [];

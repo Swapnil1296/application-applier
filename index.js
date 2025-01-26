@@ -25,11 +25,11 @@ async function main() {
       jobAge: 1,
       autoApply: true,
     };
-    const successfullyApplied = await getApplicationCount();
-    if (successfullyApplied >= 50) {
-      logger.info("=====>Reached max limit of applicaton<========");
-      return;
-    }
+    // const successfullyApplied = await getApplicationCount();
+    // if (successfullyApplied >= 50) {
+    //   logger.info("=====>Reached max limit of applicaton<========");
+    //   return;
+    // }
     // First scrape the jobs
     const jobs = await scrapeNaukriJobs("react js developer", options);
     logger.info(`===>Scraping completed. Found ${jobs?.length} jobs`);
@@ -47,8 +47,7 @@ async function main() {
       });
 
       try {
-
-        //## safe fail 
+        //## safe fail
         // const applicationResults = await autoApplyToJobsSf(
         //   jobs, // Array of scraped jobs
         //   credentials, // Login credentials
@@ -59,8 +58,7 @@ async function main() {
           jobs, // Array of scraped jobs
           credentials, // Login credentials
           emailConfig, // Email configuration for reports
-          browser, // Browser instance
-
+          browser // Browser instance
         );
         //## USING AI
         // const applicationResults = await autoApplyToJobsUsingAi(
